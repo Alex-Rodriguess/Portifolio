@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #f7f1f1;
+  background-color: #f5eeee;
   padding: 0;
   margin: 0;
 }
@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  color: #000000;
+  color: #080808;
   font-size: 90px;
   padding-left: 8%;
 }
@@ -36,25 +36,34 @@ h3 {
   position: absolute;
   right: 1rem;
   background-repeat: no-repeat;
-  opacity: 0.8;
+  z-index: -1;
+}
+
+.container-btn {
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .btn {
+  width: 200px;
+  height: 50px;
   background: #ff0000;
   border-radius: 1000px;
-  padding: 20px 45px;
+  padding: 10px 45px;
   color: #ffffff;
   display: inline-block;
-  font: normal bold 26px/1 "Open Sans", sans-serif;
+  font: normal bold 20px/1 "Open Sans", sans-serif;
   text-align: center;
   position: relative;
   left: 20%;
   cursor: pointer;
   transition: all 0.5s ease;
+  border: none;
 }
 
 .btn:hover {
-  background-color: #fb4f0b;
+  background-color: #e2cdc5;
   color: #ffffff;
 }
 
@@ -66,4 +75,7 @@ h3 {
 .icones {
   position: relative;
   left: 30%;
+  max-width: 600px;
+  padding-left: 150px;
+  padding-top: 50px;
 }
