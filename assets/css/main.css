@@ -64,7 +64,7 @@ h3 {
 
 .btn:hover {
   background-color: #e2cdc5;
-  color: #4f1614;
+  color: #7d3d3b;
 }
 
 .listagem {
@@ -78,4 +78,37 @@ h3 {
   max-width: 600px;
   padding-left: 150px;
   padding-top: 50px;
+}
+
+.burguer-container {
+  cursor: pointer;
+  z-index: 3;
+}
+
+.bar1,
+.bar2,
+.bar3,
+.bar4 {
+  position: relative;
+  left: 30px;
+  width: 30px;
+  height: 3px;
+  background-color: rgb(223, 13, 13);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-6px, 6px);
+  background-color: #fff;
+}
+
+.change .bar2 {
+  opacity: 0;
+  background-color: #fff;
+}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-6px, -7px);
+  background-color: #fff;
 }
