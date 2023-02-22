@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -111,4 +113,63 @@ h3 {
 .change .bar3 {
   transform: rotate(45deg) translate(-6px, -7px);
   background-color: #fff;
+}
+
+aside {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.icon-menu img {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-right: 20px;
+  transition: 0.3s all;
+}
+
+#barra-menu {
+  background: #860ee8dc;
+  height: 100vh;
+  width: 220px;
+}
+
+#barra-menu ul li {
+  list-style: none;
+  padding: 20px;
+}
+
+#barra-menu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  width: 100%;
+  font-size: 20px;
+}
+
+#barra-menu ul li a:hover {
+  border: solid 1px #4a206cdc;
+  border-radius: 20px;
+  background-color: #3d1161dc;
+}
+
+.c-icon {
+  margin-top: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+  overflow: hidden;
+}
+
+.c-icon span {
+  color: #ffffff;
+}
+
+.c-icon span:hover {
+  transition: 0.2s;
+  transform: 0.5s;
+  color: rgb(88, 139, 184);
 }

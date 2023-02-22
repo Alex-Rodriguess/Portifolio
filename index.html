@@ -8,24 +8,48 @@
     <title>Meu portifólio de Projetos</title>
     <link rel="stylesheet" href="./assets/css/main.css">
     <script src="https://kit.fontawesome.com/c3d83a3606.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 
 </head>
 
 <body>
     <aside>
-        <div class="icon-menu">
+        <div class="icon-menu" onclick="abrirmenu()">
             <img src="./assets/img/menu-aberto.png" alt="menu-aberto">
-
         </div>
+        <div id="barra-menu">
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Serviços</a>
+                </li>
+                <li> <a href="#">Projetos</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+                <li>
+                    <a href="#">Sobre mim</a>
+                </li>
+            </ul>
+            <div class="c-icon">
+                <span class="icon"><ion-icon name="logo-linkedin"></ion-icon></span>
+                <span class="icon"><ion-icon name="logo-github"></ion-icon></span>
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            </div>
+        </div>
+
     </aside>
-    <section class="imagem">
+    <section class=" imagem">
         <img src="./assets/img/img1.png" alt="">
     </section>
     <section class=" capa">
         <div>
             <h1>Eu sou Alex</h1>
             <h2>Sou desenvolvedor Web</h2>
-            <h3>Trabalho como Freeelancer</h3>
+            <h3>Trabalho como freeelancer</h3>
 
         </div>
     </section>
@@ -38,8 +62,9 @@
         <i class="fa fa-linkedin-square fa-2x" aria-hidden="true" style="color: rgb(11, 11, 174);"></i>
         <i class="fa fa-github fa-2x" aria-hidden="true""></i>
     </div>
-
     <script src=" ./assets/main.js"></script>
+            <script src=" https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+            <script src=" ./assets/main.js"></script>
 
 
 
