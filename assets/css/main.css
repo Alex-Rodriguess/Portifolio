@@ -13,9 +13,12 @@
 }
 
 body {
-  background-color: #f5eeee;
-  padding: 0;
-  margin: 0;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
 
 .imagem {
@@ -23,6 +26,7 @@ body {
   right: 1rem;
   background-repeat: no-repeat;
   z-index: -1;
+  margin-top: -10%;
 }
 
 .icones {
@@ -51,7 +55,7 @@ aside {
 }
 
 #barra-menu {
-  background: #860ee8dc;
+  background: #7a30b7dc;
   height: 100vh;
   width: 0px;
 }
@@ -97,7 +101,8 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 20%;
+  margin-left: 15%;
+  margin-top: 10%;
   flex-wrap: wrap;
 }
 
@@ -119,8 +124,8 @@ aside {
 }
 
 .main-title h3 {
-  color: blue;
-  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
   font-family: "Hanuman";
   letter-spacing: 2px;
   font-weight: 200;
@@ -132,9 +137,15 @@ aside {
   padding: 8px 5px;
   font-size: 20px;
   background-color: #fe002d;
-  color: #ffffff;
+  color: #fbf7f7;
   border-radius: 50px;
   font-family: "Playfair";
   cursor: pointer;
-  border-color: #ffffff;
+  transition-duration: 0.9s;
+}
+
+.main-title button:hover {
+  border: solid 1px #fff;
+  transition: 0.7s;
+  background: transparent;
 }
