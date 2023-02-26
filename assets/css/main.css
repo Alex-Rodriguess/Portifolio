@@ -21,14 +21,6 @@ body {
   width: 100%;
 }
 
-.imagem {
-  position: absolute;
-  right: 1rem;
-  background-repeat: no-repeat;
-  z-index: -1;
-  margin-top: -10%;
-}
-
 .icones {
   position: relative;
   left: 30%;
@@ -107,7 +99,7 @@ aside {
 }
 
 .main-title h1 {
-  font-size: 70px;
+  font-size: 80px;
   color: black;
   margin-top: 30px;
   font-family: "Poppins";
@@ -148,4 +140,29 @@ aside {
   border: solid 1px #fff;
   transition: 0.7s;
   background: transparent;
+}
+
+@media screen and (max-width: 414px) {
+  .main-title h1 {
+    font-size: 50px;
+  }
+
+  .main-title h2 {
+    font-size: 25px;
+    margin-left: -10px;
+    margin-top: 10%;
+  }
+
+  .main-title h3 {
+    font-size: 20px;
+    margin-top: 15%;
+  }
+
+ .main-title button{
+  font-size: 15px;
+  width: 30%;
+  margin-left: 10%;
+ }
+    
+  }
 }
